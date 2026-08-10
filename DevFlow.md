@@ -1,8 +1,7 @@
-DevFlow.md
-# Privacy Policy
+# DevFlow — Privacy Policy
 
-Applies to all mobile applications published by Mike Kennedy ("the Developer"),
-including DevFlow.
+Applies to DevFlow, published by Mike Kennedy ("the Developer"). It takes precedence
+over the [general policy](README.md) for this app.
 
 **The Developer operates no servers and receives no user data.**
 
@@ -53,4 +52,5 @@ data from them.
 This policy will be updated before release if any app's data handling changes.
 
 Contact: devmikekennedy@gmail.com
+
 Last updated: 10 August 2026
