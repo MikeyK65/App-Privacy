@@ -6,24 +6,41 @@ the app.
 
 ## What is sent, and to whom
 
-Routes and address searches are provided by **Geoapify** (Geoapify GmbH). To do this the
-app sends Geoapify, over an encrypted HTTPS connection:
+Routes and place searches are provided by whichever route planner you choose in the
+app's Settings. Only that planner receives the data below, over an encrypted HTTPS
+connection.
 
-- the start, destination and any waypoints of a route, which may be your current
-  location;
+**Apple Maps** (the default on iPhone and iPad) is provided by Apple. When you plan a
+route or search for a place, the app sends Apple:
+
+- the start, destination and any stops of the route, which may be your current location;
+- the text of an address or place you search for.
+
+Apple's handling of this data is described in its privacy policy:
+https://www.apple.com/legal/privacy/
+
+**Geoapify** (Geoapify GmbH), used if you choose routes planned for your vehicle, receives:
+
+- the start, destination and any stops of the route, which may be your current location;
 - the text of an address or place you search for;
 - the routing mode for your vehicle class (for example "light truck");
 - the Geoapify API key configured in the app.
 
-These are sent only when you plan a route, recalculate one, or search for a place. Your
-position is **not** sent continuously while you drive. Turn-by-turn guidance is worked
-out on your device.
-
 Geoapify's handling of this data is described in its privacy policy:
 https://www.geoapify.com/privacy-policy/
 
+This data is sent only when you plan a route, a route is recalculated, or you search for
+a place. Your position is **not** sent continuously while you drive. Turn-by-turn
+guidance is worked out on your device.
+
 The map itself is drawn by Apple Maps (iOS) or Google Maps (Android), which receive the
 map area being displayed, under their own privacy policies.
+
+## In-app purchase
+
+The optional Caravan Routing unlock is bought through the App Store. Apple processes the
+payment; the Developer receives no payment details, name or Apple Account information.
+Restoring a purchase is likewise handled by Apple.
 
 ## Location
 
@@ -36,8 +53,10 @@ between typed addresses without it.
 ## What stays on your device
 
 Your settings, vehicle profile (dimensions and weight) and saved or recent places are
-stored only on your device, in the app's own storage. They are not sent anywhere and are
-removed when you delete the app.
+stored only on your device, in the app's own storage, and are removed when you delete the
+app. Whether you have bought Caravan Routing, and how many free caravan routes you have
+used, are kept in your device's Keychain so they survive reinstalling the app. None of
+this is sent anywhere.
 
 ## What is not collected
 
