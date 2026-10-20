@@ -7,11 +7,12 @@ any information to the Developer, and the Developer has no ability to access you
 
 ## Per-app policies
 
-Some applications connect to third-party services that you choose to sign in to. Where
-that is the case, the app has its own policy describing exactly what is sent and to whom.
+Some applications connect to third-party services, such as a service you sign in to or a
+route planner. Where that is the case, the app has its own policy describing exactly what is sent and to whom.
 These per-app policies take precedence over this one:
 
 - [DevFlow](DevFlow.md) — Azure DevOps client
+- [Caravan Navigation](CaravanNavigation.md) — caravan and motorhome satnav
 
 Applications with no per-app policy listed above process all data locally on your device
 and transmit nothing.
@@ -33,4 +34,4 @@ This policy will be updated before release if any app's data handling changes.
 
 Contact: devmikekennedy@gmail.com
 
-Last updated: 10 August 2026
+Last updated: 20 October 2026
